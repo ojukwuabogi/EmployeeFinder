@@ -1,0 +1,26 @@
+{
+  "name": "employeefinder",
+  "version": "1.0.0",
+  "description": "* Check out [this demo version of the site](https://employeefinder-fsf.herokuapp.com/). Use this as a model for how we expect your assignment look and operate.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojukwuabogi/FriendFinder.git"
+  },
+  "author": "Misha Cadet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojukwuabogi/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ojukwuabogi/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
