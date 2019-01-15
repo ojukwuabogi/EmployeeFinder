@@ -18,8 +18,8 @@ app.use(express.static('app/public'));
 
 // ROUTER //
 
-require('./app/routing/apiroutes.js')(app); 
-require('./app/routing/htmlroutes.js')(app);
+require('./app/routing/apiRoutes.js')(app); 
+require('./app/routing/htmlRoutes.js')(app);
 
 // LISTENER //
 
